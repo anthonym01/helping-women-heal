@@ -2,7 +2,7 @@
 //This is the server file, it will handle all requests and responses
 
 //Server configuration
-const port = 8082;// 80, 443, 8082 nginx
+const port = 8052;// 80, 443, 8082 nginx
 const express = require('express');
 const app = express();
 const logs = require('./modules/logger');
